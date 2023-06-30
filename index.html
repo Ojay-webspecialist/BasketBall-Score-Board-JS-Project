@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <div class="container"> 
+        <div class="containerA">
+            <div class="home-scboard">
+                <h3>HOME</h3>
+                <div class="scoreboard" id="homescorebrd"><h3 class="score-value" id="hmbrdScore">0</h3></div>
+                <button class="score-btn" id="homeScrbtn1" onclick="addOneHm()">+1</button>
+                <button class="score-btn" id="homeScrbtn2" onclick="addTwoHm()">+2</button>
+                <button class="score-btn" id="homeScrbtn3" onclick="addThreeHm()">+3</button>
+            </div>
+            <div class="guest-scboard">
+                <h3>GUEST</h3>
+                <div class="scoreboard" id="guestscorbrd"><h3 class="score-value" id="gstbrdScore">0</h3></div>
+                <button class="score-btn"  id="guestScrbtn1" onclick="addOneGst()">+1</button>
+                <button class="score-btn" id="guestScrbtn2" onclick="addTwoGst()">+2</button>
+                <button class="score-btn" id="guestScrbtn3" onclick="addThreeGst()">+3</button>
+            </div>
+            
+        
+        </div>
+            <div class="secondContainer">
+                    <button class="newGmbtn" id="addNewGame" onclick="addNewGam()">Add New Game </button>
+            </div>
+            
+       </div>
+        <script src="index.js"></script>
+    </body>
+</html>
